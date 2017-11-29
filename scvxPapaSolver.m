@@ -178,9 +178,7 @@ optsol.fx_val  = fx_val;
 
 end
 
-% This code implements Chambolle-Pock's algorithm to solve the following 
-% composite convex optimization problem:
-%
-%                P^* := min_x { P(x) := f(x) + g(B*x) },
-% 
-% where f and g are convex and B is a linear operator.
+% PAPA v.1.0 by Quoc Tran-Dinh (quoctd@email.unc.edu)
+% Copyright @ 2017 Department of Statistics and Operations Research (STOR)
+%                The University of North Carolina at Chapel Hill (UNC)
+% See the file LICENSE for full license information.
